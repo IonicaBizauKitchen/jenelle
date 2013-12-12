@@ -8,6 +8,7 @@ body {
   background: #E5F2EE;
   margin: 0;
   padding: 0;
+  font-family: Georgia;
 }
 
 section {
@@ -16,4 +17,55 @@ section {
   max-width: 600px;
   margin: 40px auto;
   position: relative
+}
+
+form input[type='text'] {
+  width: 100%;
+  padding: 5px;
+  outline: none;
+  border: 1px solid #CCC;
+}
+
+form textarea {
+  width: 100%;
+  padding: 5px;
+  min-height: 400px;
+  outline: none;
+  border: 1px solid #CCC;
+  line-height: 1.4;
+}
+
+input, textarea {
+  font-family: Georgia;
+  font-size: 18px;
+}
+
+ul.posts {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul.posts > li {
+  margin: 20px 0 40px 0;
+  padding: 0;
+}
+
+a {
+  color: #6B9674;
+}
+
+p {
+  line-height: 1.6;
+}
+
+ul.admin {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul.admin > li {
+  margin: 10px 0;
+  padding: 0;
 }

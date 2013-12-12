@@ -2,3 +2,9 @@ extends layout
 
 block content
   h1 Jenelle Time
+
+  ul.posts
+    each post in posts
+      li
+        h2= post.title
+        p= post.body

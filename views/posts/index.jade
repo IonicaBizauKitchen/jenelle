@@ -1,0 +1,11 @@
+extends ../layout
+
+block content
+  h1 For Jenelle's Eyes Only
+
+  ul.admin
+    li
+      a(href="/posts/new") Publish a new post
+    each post in posts
+      li
+        a(href="/posts/edit/"+post.id)= post.title

@@ -10,8 +10,7 @@ if (!global.hasOwnProperty('db')) {
       dialect:  'postgres',
       protocol: 'postgres',
       port:     match[4],
-      host:     match[3],
-      logging:  true //false
+      host:     match[3]
     })
   } else {
     // the application is executed on the local machine ... use mysql
@@ -19,8 +18,7 @@ if (!global.hasOwnProperty('db')) {
       dialect:  'postgres',
       protocol: 'postgres',
       host:     'localhost',
-      port: 5432,
-      logging:  true
+      port: 5432
     })
   }
 
