@@ -5,18 +5,18 @@
 }
 
 body {
-  background: #E5F2EE;
+  /*background: #E5F2EE;*/
+  /*background-image: url(http://images.fineartamerica.com/images-medium-large/close-up-of-cat-face-daniele-carotenuto-photography.jpg);*/
   margin: 0;
   padding: 0;
-  font-family: Georgia;
+  font-family: "Lato";
 }
 
 section {
-  background: white;
-  padding: 20px;
-  max-width: 600px;
-  margin: 40px auto;
-  position: relative
+  max-width: 500px;
+  margin: 0 auto 40px auto;
+  position: relative;
+  /*-webkit-transform: translateX(-300px);*/
 }
 
 form input[type='text'] {
@@ -49,6 +49,54 @@ ul.posts {
 ul.posts > li {
   margin: 20px 0 40px 0;
   padding: 0;
+  background: #E5F2EE;
+  padding: 20px;
+  margin: 20px 0;
+  position: relative;
+  border: 1px solid rgba(107, 150, 116, 0.5);
+  border-radius: 5px;
+}
+
+ul.posts > li:nth-child(2) {
+  background: #eee4c8;
+}
+
+ul.posts > li:nth-child(3) {
+  background: #e2eec8;
+}
+
+h1, h2 {
+  /*font-family: "Roboto Slab";*/
+  font-family: Codystar, Georgia;
+}
+
+h1 {
+  opacity: 1;
+  color: #a15c08;
+  font-weight: 300;
+  padding: 80px 20px 20px 20px;
+  margin: 0;
+  line-height: 8;
+  background-color: #587e77;
+  color: rgba(255, 255, 255, 1.0);
+  font-size: 36px;
+  text-align: center;
+  background: white url(https://www.connectedgoods.com/images/fair-trade-product_lg/handmade-woven-knitting-basket.jpg) no-repeat center center;
+}
+
+h1 span {
+  /*color: rgba(153, 0, 0, 1.0);*/
+  color: rgba(255, 255, 255, 0.7);
+  padding-left: 6px
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+  font-size: 36px;
+  color: #496843;
+  text-align: center;
 }
 
 a {
@@ -57,6 +105,7 @@ a {
 
 p {
   line-height: 1.6;
+  color: #60695f;
 }
 
 ul.admin {
